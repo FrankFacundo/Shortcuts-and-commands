@@ -1,0 +1,14 @@
+$echo $PATH			//indique la liste des path
+
+$> 		//indique que la sortie n’est plus le terminal mais un autre support (fichier, etc.)
+
+$>> 		//pour concaténer la sortie d’une commande à un support déjà existant (rallongement)
+
+$ls -R | grep "TP_SELC:"$ 	//cherche les "TP_SELC:"
+
+$grep,cp,mv,rm,less,
+
+$sort mon_fichier.txt -k2	//va afficher le contenu de mon_fichier.txt, trié ligne par ligne, selon la deuxième colonne (par défaut le séparateur entre colonnes est l’espace).
+
+
+
