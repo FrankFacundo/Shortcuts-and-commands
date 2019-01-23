@@ -20,3 +20,5 @@ Ctrl+j End the search at current history entry
 Ctrl+g Cancel the search and restore original line
 Ctrl+n Next command from the History
 Ctrl+p previous command from the History
+Ctrl+s freeze screen
+Ctrl+q unfreeze screen
