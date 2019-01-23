@@ -5,3 +5,6 @@ Previous window		F3
 Next window		F4
 Switch to window	Ctrl-A then (number)
 Close window		Ctrl-F6
+
+Color:
+        byobu-prompt
