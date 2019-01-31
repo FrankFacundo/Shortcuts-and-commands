@@ -10,5 +10,11 @@ $grep,cp,mv,rm,less,
 
 $sort mon_fichier.txt -k2	//va afficher le contenu de mon_fichier.txt, trié ligne par ligne, selon la deuxième colonne (par défaut le séparateur entre colonnes est l’espace).
 
+find		// shows absolute path
+	ex : sudo find ~ | grep _hat.py 	
+aplay	// play wav files
+	
+mpg123	//// play mp3 files
+
 
 

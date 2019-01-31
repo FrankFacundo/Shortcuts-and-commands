@@ -3,6 +3,7 @@ What is Secure Copy?
 
 scp allows files to be copied to, from, or between different hosts. It uses ssh for data transfer and provides the same authentication and same level of security as ssh.
 Examples
+
 Copy the file "foobar.txt" from a remote host to the local host (REMOTE TO LOCAL)
 
     $ scp your_username@remotehost.edu:foobar.txt /some/local/directory 
@@ -10,6 +11,9 @@ Copy the file "foobar.txt" from a remote host to the local host (REMOTE TO LOCAL
 Copy the file "foobar.txt" from the local host to a remote host (LOCAL TO REMOTE)
 
     $ scp foobar.txt your_username@remotehost.edu:/some/remote/directory 
+
+
+
 
 Copy the directory "foo" from the local host to a remote host's directory "bar"
 
