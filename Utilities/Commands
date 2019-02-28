@@ -16,5 +16,13 @@ aplay	// play wav files
 	
 mpg123	//// play mp3 files
 
+xinput --list	//list all inputs in machine
+xinput disable [_number] 	//disable the input with number "_number" (if touchscreen ELAN21EF:00 04F3:227C)
 
+taskset -c 0 ./exemple		//force l’exécution sur un seul processeur [in a mulprocessor machine !!]
 
+ps -u 		//This selects the processes whose effective user name or ID is in userlist.
+
+echo $PATH	//Display current path
+
+crontab -e	//modify cron
