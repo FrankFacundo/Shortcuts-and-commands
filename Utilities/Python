@@ -1,0 +1,5 @@
+change version : 
+	$alias python='/usr/bin/python3.4'
+	$ . ~/.bashrc
+	$python --version
+
