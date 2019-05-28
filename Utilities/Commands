@@ -1,4 +1,4 @@
-$echo $PATH						//indique la liste des path
+ $echo $PATH						//indique la liste des path
 
 $> 							//indique que la sortie n’est plus le terminal mais un autre support (fichier, etc.) cad ecrit la sortie du terminal dans un fichier
 
@@ -35,4 +35,16 @@ wc -l file1.txt|tee -a file2.txt			//ecrit la sortie du wc au final (concatenati
 
 cat /etc/os-release 					//OS version
 
+dd if=file.iso of=/dev/sdX bs=512 status=progress
+
+sudo nethogs
+sudo iftop								//monitor real time traffic bandwidth
+
+sudo htop 						//monitor ressources
+
+sudo avahi-browse -a 			//obtiene informacion de los aparatos conectados a la red
+
+df .							//muestra el porcentaje del disco actual utilizado
+
+tree							//show tree directories
 
