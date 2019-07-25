@@ -1,4 +1,4 @@
- $echo $PATH						//indique la liste des path
+$echo $PATH						//indique la liste des path
 
 $> 							//indique que la sortie n’est plus le terminal mais un autre support (fichier, etc.) cad ecrit la sortie du terminal dans un fichier
 
@@ -13,7 +13,7 @@ $grep,cp,mv,rm,less,
 $sort mon_fichier.txt -k2				//va afficher le contenu de mon_fichier.txt, trié ligne par ligne, selon la deuxième colonne (par défaut le séparateur entre colonnes est l’espace).
 
 find							// shows absolute path
-	ex : sudo find ~ | grep _hat.py 	
+	ex : sudo find ~ | grep _hat.py 
 aplay							// play wav files
 	
 mpg123							// play mp3 files
@@ -48,3 +48,32 @@ df .							//muestra el porcentaje del disco actual utilizado
 
 tree							//show tree directories
 
+nslookup [IP or DOMAIN-NAME]	//search IP and DOMAIN-NAME
+
+avahi-browse -alr				//get information about local devices with mDNS activated
+
+service avahi-daemon status		//show status of avahi-daemon
+
+ssh -R 52698:localhost:52698 pi@ip-rpi // remote connect to RPI in VSCode
+rcode [file]					//open remote file in vscode
+
+source ~/anaconda3/bin/activate [environnement ex:root]	//activate commands for anaconda
+
+kill -9 [PID]					//kill a proccess
+killall [COMMAND EX:tor]		//kill a program
+
+gedit ~/.bashrc					//edit alias and others
+
+ip route						//get gateway
+
+tar xf [archive].tar.xz			//decompress tar xz
+
+stat [file_name]				//properties of a file
+
+feh [image_filename]			//show a file image
+
+echo $0							//show interpreter of shell
+
+du -h [directory]				//show the size of a directory 
+
+nmap -sP [IP]/[mask(ex:24)]		//scan devices connected in a local network
